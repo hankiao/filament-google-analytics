@@ -23,7 +23,7 @@
         }
     ],
     "require": {
-        "php": "^8.0|^8.1",
+        "php": "^7.1.3",
         "filament/filament": "^2.0",
         "illuminate/contracts": "^9.0",
         "spatie/laravel-analytics": "^4.1",
