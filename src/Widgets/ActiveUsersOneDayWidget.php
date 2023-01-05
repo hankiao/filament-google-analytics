@@ -1,9 +1,9 @@
 <?php
 
-namespace BezhanSalleh\FilamentGoogleAnalytics\Widgets;
+namespace hankiao\FilamentGoogleAnalytics\Widgets;
 
-use BezhanSalleh\FilamentGoogleAnalytics\FilamentGoogleAnalytics;
-use BezhanSalleh\FilamentGoogleAnalytics\Traits;
+use hankiao\FilamentGoogleAnalytics\FilamentGoogleAnalytics;
+use hankiao\FilamentGoogleAnalytics\Traits;
 use Filament\Widgets\Widget;
 use Illuminate\Support\Arr;
 

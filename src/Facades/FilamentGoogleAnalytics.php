@@ -1,14 +1,14 @@
 <?php
 
-namespace BezhanSalleh\FilamentGoogleAnalytics\Facades;
+namespace hankiao\FilamentGoogleAnalytics\Facades;
 
-use BezhanSalleh\FilamentGoogleAnalytics\FilamentGoogleAnalytics as FGA;
+use hankiao\FilamentGoogleAnalytics\FilamentGoogleAnalytics as FGA;
 use Illuminate\Support\Facades\Facade;
 
 /**
  * @method static thousandsFormater()
  *
- * @see \BezhanSalleh\FilamentGoogleAnalytics\FilamentGoogleAnalytics
+ * @see \hankiao\FilamentGoogleAnalytics\FilamentGoogleAnalytics
  */
 class FilamentGoogleAnalytics extends Facade
 {

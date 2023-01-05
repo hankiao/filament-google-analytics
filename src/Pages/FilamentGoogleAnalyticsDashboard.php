@@ -1,8 +1,8 @@
 <?php
 
-namespace BezhanSalleh\FilamentGoogleAnalytics\Pages;
+namespace hankiao\FilamentGoogleAnalytics\Pages;
 
-use BezhanSalleh\FilamentGoogleAnalytics\Widgets;
+use hankiao\FilamentGoogleAnalytics\Widgets;
 use Filament\Pages\Page;
 
 class FilamentGoogleAnalyticsDashboard extends Page

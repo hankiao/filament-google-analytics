@@ -1,6 +1,6 @@
 <?php
 
-namespace BezhanSalleh\FilamentGoogleAnalytics\Traits;
+namespace hankiao\FilamentGoogleAnalytics\Traits;
 
 use Illuminate\Support\Str;
 

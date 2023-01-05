@@ -1,6 +1,6 @@
 <?php
 
-namespace BezhanSalleh\FilamentGoogleAnalytics\Traits;
+namespace hankiao\FilamentGoogleAnalytics\Traits;
 
 use Carbon\Carbon;
 use Spatie\Analytics\Analytics;

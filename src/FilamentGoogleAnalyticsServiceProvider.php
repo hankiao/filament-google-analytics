@@ -1,6 +1,6 @@
 <?php
 
-namespace BezhanSalleh\FilamentGoogleAnalytics;
+namespace hankiao\FilamentGoogleAnalytics;
 
 use Filament\PluginServiceProvider;
 use Spatie\LaravelPackageTools\Package;

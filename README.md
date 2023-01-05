@@ -1,4 +1,4 @@
-<a href="https://github.com/bezhansalleh/filament-google-analytics">
+<a href="https://github.com/hankiao/filament-google-analytics">
 <img style="width: 100%; max-width: 100%;" alt="filament-google-analytics-art" src="https://user-images.githubusercontent.com/10007504/156520889-0abeb87d-a231-4f63-a79a-774fbd92ee5c.png" >
 </a>
 
@@ -7,18 +7,18 @@
     <a href="https://filamentadmin.com/docs/2.x/admin/installation">
         <img alt="FILAMENT 8.x" src="https://img.shields.io/badge/FILAMENT-2.x-EBB304?style=for-the-badge">
     </a>
-    <a href="https://packagist.org/packages/bezhansalleh/filament-google-analytics">
-        <img alt="Packagist" src="https://img.shields.io/packagist/v/bezhansalleh/filament-google-analytics.svg?style=for-the-badge&logo=packagist">
+    <a href="https://packagist.org/packages/hankiao/filament-google-analytics">
+        <img alt="Packagist" src="https://img.shields.io/packagist/v/hankiao/filament-google-analytics.svg?style=for-the-badge&logo=packagist">
     </a>
-    <a href="https://github.com/bezhansalleh/filament-google-analytics/actions?query=workflow%3Arun-tests+branch%3Amain">
-        <img alt="Tests Passing" src="https://img.shields.io/github/workflow/status/bezhansalleh/filament-google-analytics/run-tests?style=for-the-badge&logo=github&label=tests">
+    <a href="https://github.com/hankiao/filament-google-analytics/actions?query=workflow%3Arun-tests+branch%3Amain">
+        <img alt="Tests Passing" src="https://img.shields.io/github/workflow/status/hankiao/filament-google-analytics/run-tests?style=for-the-badge&logo=github&label=tests">
     </a>
-    <a href="https://github.com/bezhansalleh/filament-google-analytics/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain">
-        <img alt="Code Style Passing" src="https://img.shields.io/github/workflow/status/bezhansalleh/filament-google-analytics/run-tests?style=for-the-badge&logo=github&label=code%20style">
+    <a href="https://github.com/hankiao/filament-google-analytics/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain">
+        <img alt="Code Style Passing" src="https://img.shields.io/github/workflow/status/hankiao/filament-google-analytics/run-tests?style=for-the-badge&logo=github&label=code%20style">
     </a>
 
-<a href="https://packagist.org/packages/bezhansalleh/filament-google-analytics">
-    <img alt="Downloads" src="https://img.shields.io/packagist/dt/bezhansalleh/filament-google-analytics.svg?style=for-the-badge" >
+<a href="https://packagist.org/packages/hankiao/filament-google-analytics">
+    <img alt="Downloads" src="https://img.shields.io/packagist/dt/hankiao/filament-google-analytics.svg?style=for-the-badge" >
     </a>
 <p>
 
@@ -56,18 +56,18 @@ php artisan vendor:publish --tag=filament-google-analytics-config
 
 #### Available Widgets
 ```php
-\BezhanSalleh\FilamentGoogleAnalytics\Widgets\PageViewsWidget::class,
-\BezhanSalleh\FilamentGoogleAnalytics\Widgets\VisitorsWidget::class,
-\BezhanSalleh\FilamentGoogleAnalytics\Widgets\ActiveUsersOneDayWidget::class,
-\BezhanSalleh\FilamentGoogleAnalytics\Widgets\ActiveUsersSevenDayWidget::class,
-\BezhanSalleh\FilamentGoogleAnalytics\Widgets\ActiveUsersFourteenDayWidget::class,
-\BezhanSalleh\FilamentGoogleAnalytics\Widgets\ActiveUsersTwentyEightDayWidget::class,
-\BezhanSalleh\FilamentGoogleAnalytics\Widgets\SessionsWidget::class,
-\BezhanSalleh\FilamentGoogleAnalytics\Widgets\SessionsDurationWidget::class,
-\BezhanSalleh\FilamentGoogleAnalytics\Widgets\SessionsByCountryWidget::class,
-\BezhanSalleh\FilamentGoogleAnalytics\Widgets\SessionsByDeviceWidget::class,
-\BezhanSalleh\FilamentGoogleAnalytics\Widgets\MostVisitedPagesWidget::class,
-\BezhanSalleh\FilamentGoogleAnalytics\Widgets\TopReferrersListWidget::class,
+\hankiao\FilamentGoogleAnalytics\Widgets\PageViewsWidget::class,
+\hankiao\FilamentGoogleAnalytics\Widgets\VisitorsWidget::class,
+\hankiao\FilamentGoogleAnalytics\Widgets\ActiveUsersOneDayWidget::class,
+\hankiao\FilamentGoogleAnalytics\Widgets\ActiveUsersSevenDayWidget::class,
+\hankiao\FilamentGoogleAnalytics\Widgets\ActiveUsersFourteenDayWidget::class,
+\hankiao\FilamentGoogleAnalytics\Widgets\ActiveUsersTwentyEightDayWidget::class,
+\hankiao\FilamentGoogleAnalytics\Widgets\SessionsWidget::class,
+\hankiao\FilamentGoogleAnalytics\Widgets\SessionsDurationWidget::class,
+\hankiao\FilamentGoogleAnalytics\Widgets\SessionsByCountryWidget::class,
+\hankiao\FilamentGoogleAnalytics\Widgets\SessionsByDeviceWidget::class,
+\hankiao\FilamentGoogleAnalytics\Widgets\MostVisitedPagesWidget::class,
+\hankiao\FilamentGoogleAnalytics\Widgets\TopReferrersListWidget::class,
 ```
 
 #### Custom Dashboard
@@ -83,7 +83,7 @@ then register the widgets you want from the **Available Widgets** list either in
 namespace App\Filament\Pages;
 
 use Filament\Pages\Page;
-use BezhanSalleh\FilamentGoogleAnalytics\Widgets;
+use hankiao\FilamentGoogleAnalytics\Widgets;
 
 class MyCustomDashboardPage extends Page
 {
@@ -144,7 +144,7 @@ Install the packages in your app's `composer.json`:
 
 ```json
 "require": {
-    "bezhansalleh/filament-google-analytics": "dev-fix/error-message as main-dev",
+    "hankiao/filament-google-analytics": "dev-fix/error-message as main-dev",
 },
 "repositories": [
     {
@@ -165,7 +165,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 # Credits
 
-- [Bezhan Salleh](https://github.com/bezhanSalleh)
+- [Bezhan Salleh](https://github.com/hankiao)
 - [Laravel Analytics](https://github.com/spatie/laravel-analytics) By [Spatie](https://github.com/spatie)
 - [Nova Google Analytics](https://github.com/tighten/nova-google-analytics) By [Tighten](https://github.com/tighten)
 - [All Contributors](../../contributors)

@@ -1,8 +1,8 @@
 <?php
 
-namespace BezhanSalleh\FilamentGoogleAnalytics\Widgets;
+namespace hankiao\FilamentGoogleAnalytics\Widgets;
 
-use BezhanSalleh\FilamentGoogleAnalytics\Traits;
+use hankiao\FilamentGoogleAnalytics\Traits;
 use Filament\Widgets\Widget;
 use Spatie\Analytics\Analytics;
 use Spatie\Analytics\Period;

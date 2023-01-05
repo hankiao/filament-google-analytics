@@ -1,6 +1,6 @@
 <?php
 
-namespace BezhanSalleh\FilamentGoogleAnalytics;
+namespace hankiao\FilamentGoogleAnalytics;
 
 use Illuminate\Support\Carbon;
 

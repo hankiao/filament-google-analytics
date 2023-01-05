@@ -1,6 +1,6 @@
 <?php
 
-namespace BezhanSalleh\FilamentGoogleAnalytics\Commands;
+namespace hankiao\FilamentGoogleAnalytics\Commands;
 
 use Illuminate\Console\Command;
 
