@@ -49,7 +49,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "BezhanSalleh\\FilamentGoogleAnalytics\\Tests\\": "tests"
+            "hankiao\\FilamentGoogleAnalytics\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -67,10 +67,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "BezhanSalleh\\FilamentGoogleAnalytics\\FilamentGoogleAnalyticsServiceProvider"
+                "hankiao\\FilamentGoogleAnalytics\\FilamentGoogleAnalyticsServiceProvider"
             ],
             "aliases": {
-                "FilamentGoogleAnalytics": "BezhanSalleh\\FilamentGoogleAnalytics\\Facades\\FilamentGoogleAnalytics"
+                "FilamentGoogleAnalytics": "hankiao\\FilamentGoogleAnalytics\\Facades\\FilamentGoogleAnalytics"
             }
         }
     },
