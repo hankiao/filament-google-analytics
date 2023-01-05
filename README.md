@@ -30,7 +30,7 @@ Google Analytics integration for [Filament (FilamentAdmin)](https://filamentphp.
 You can install the package in to a Laravel app that uses [Filament](https://filamentphp.com) via composer:
 
 ```bash
-composer require bezhansalleh/filament-google-analytics
+composer require hankiao/filament-google-analytics
 ```
 
 For now, follow the directions on [Spatie's Laravel Google Analytics package](https://github.com/spatie/laravel-analytics) for getting your credentials, then put them here:
